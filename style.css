@@ -1,0 +1,64 @@
+.topper {
+  width: 100%;
+  background-color:#009933;
+  color: white;
+  font-size: 3em;
+  position: relative;
+  text-align: center;
+  border:1px;
+  border-style:solid;
+  border-color:green;
+  float: left;
+
+}
+
+.topl{
+  float: left;
+}
+.topr{
+  float: right;
+}
+
+
+.menu{
+ border:1px;
+ border-style:solid;
+ border-spacing: 0em;
+ font-size: 1.5em;
+float:left;
+}
+
+.menu td{
+  padding-top:1em;
+  text-align: left;
+}
+.menu tr:nth-child(1)  { 
+  background-color: #005C1F;
+  color: white;
+}
+.menu tr:nth-child(5)  { 
+  background-color: #005C1F;
+  color: white;
+}
+
+a {
+text-decoration:none; /*Syntax from http://stackoverflow.com/questions/2789703/remove-stubborn-underline-from-link */
+color: white;
+}
+
+
+.menu tr  { 
+  background-color: #66C285;
+  color: white;
+}
+
+body {
+font-size: 100%; /*for use in relative font size: http://stackoverflow.com/questions/520939/css-font-size-relative-vs-absolute-values-which-to-use */
+color:white;
+background-color:#33AD5C;
+
+}
+
+div {
+float:left;
+}
